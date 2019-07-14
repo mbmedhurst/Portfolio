@@ -1,5 +1,5 @@
 body {
     background: url('../../assets/images/beach.jpeg');
     background-repeat: no-repeat;
-    background-size: 100%, 120%;
+    background-size: cover;
 }

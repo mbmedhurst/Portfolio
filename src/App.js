@@ -13,6 +13,7 @@ class App extends Component {
             <Home />} />
           {/* <Route exact path='/Portfolio' render={_ => <Portfolio />} /> */}
           {/* <Route exact path='/CV' render={_ => <CV />} /> */}
+          {/* <Route exact path='/Contact' render={_ => <Contact />} /> */}
         </div>
       </Router>
     )
