@@ -8,7 +8,6 @@ const Home = props => {
     return (
         <Grid container fixed>
             <Grid item id='sidebar' xs={4}>
-                <Sidebar />
             </Grid>
             <Grid item id='main' xs={8} style={{marginTop: '10%', color: 'white'}}><h1>Hello World</h1></Grid>
         </Grid>
