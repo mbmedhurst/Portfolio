@@ -12,7 +12,7 @@ class App extends Component {
     width: 0
   }
 
-  componentWillMount() {
+  componentDidMount() {
     window.addEventListener('resize', this.handleWindowSizeChange)
   }
 
@@ -27,8 +27,8 @@ class App extends Component {
   }
 
   render() {
-    const { width } = this.state;
-    const isMobile = width <= 1000;
+    const { width } = this.state
+    const isMobile = width <= 1000
 
     if (isMobile) {
       return (
