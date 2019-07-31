@@ -7,33 +7,22 @@ import MenuItem from '@material-ui/core/MenuItem'
 import MenuList from '@material-ui/core/MenuList'
 import { Link } from 'react-router-dom'
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
     bigAvatar: {
         marginTop: 40,
         marginBottom: 10,
         width: 150,
         height: 150,
-    },
-    sidebar: {
-        fontFamily: 'roboto',
-        margin: '0',
-        position: 'fixed',
-        width: '25%',
-        height: '100%',
-        backgroundColor: 'rgba(255, 83, 61,0.9)',
-        border: '1px solid grey',
-        zIndex: '1100'
-    },
-    link: {
-        textDecoration: 'none',
-        color: 'white',
     }
-})
+}))
+
+
 
 const Sidebar = props => {
-    const classes = useStyles()
+    const classes = useStyles();
+
     return (
-        <Grid item className={classes.sidebar} spacing={2} style={{
+        <Grid item className='sidebar' spacing={2} style={{
 
         }}>
             <Grid item xs={12}
@@ -49,17 +38,17 @@ const Sidebar = props => {
                 </Grid>
                 <Grid item xs={12} style={{ marginTop: '30px'}}>
                     <MenuList style={{ marginLeft: '15%' }}>
-                        <Link className={classes.link} to='/'>
+                        <Link className='link' to='/'>
                             <MenuItem>Home</MenuItem>
                         </Link>
-                        <Link className={classes.link} to='/portfolio'>
+                        <Link className='link' to='/portfolio'>
                             <MenuItem>Portfolio</MenuItem>
                         </Link>
-                        <Link className={classes.link} to='/cv'>
+                        <Link className='link' to='/cv'>
                             <MenuItem>CV</MenuItem>
                         </Link>
-                        <Link className={classes.link} to='/contact'>
-                            <MenuItem>Contact Me</MenuItem>
+                        <Link className='link' to='/contact'>
+                            <MenuItem>Contact</MenuItem>
                         </Link>
                     </MenuList>
                 </Grid>

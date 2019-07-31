@@ -1,0 +1,19 @@
+
+.sidebar {
+    font-family: roboto;
+    margin: 0;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    /* background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); */
+    opacity: 0.9;
+    /* backgroundColor: 'rgba(255, 83, 61,0.9)', */
+    background-color: #ff0844;
+    border: 1px solid grey;
+    z-index: 1100
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
