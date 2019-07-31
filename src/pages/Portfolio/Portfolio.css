@@ -1,219 +1,63 @@
-/* iPhone 5/SE */
+.main {
+    overflow-x: auto;
+}
+.header {
+    margin: 35px 30px 20px 20px;
+    color: #FF533D;
+    font-size: 40px;
+}
+
+.subHeader {
+    margin: 10px 30px 30px 20px;
+}
+
+#appInfo {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: auto;
+}
+.appName {
+    font-size: 40px;
+}
+
+.appDesc {
+    margin-top: 30px;
+}
+
+.appImg {
+    text-align: center;
+}
+
+
+
 @media only screen 
   and (min-width: 320px) 
   and (max-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .brand-logo {
-        /* this one only works when I use the 'important' property */
-        font-size: 1.4em !important;
+    .header {
+        margin-top: 70px;
+        margin-bottom: 10px;
+        font-size: 30px;
     }
-    nav, .page-footer {
-        width: 350px;
+    .subHeader {
+        margin-top: 10px;
     }
-    main {
-        width: 350px;
-        align-content: center;
+    .appName {
+        margin-top: 5px;
+        margin-left: 5px;
+        font-size: 60px;
     }
-
-    .main-container {
-        margin: 40px 40px;
+    .appDesc {
+        margin-top: 20px;
     }
-
-    .content-container-row {
-        margin: 0%;
-    }
-
-    .form-container {
-        margin: auto;
-        text-align: center;
-    }
-
-    .button-container {
-        margin: auto;
-        text-align: center;
-    }
-}
-
-@media only screen 
-  and (min-width: 320px) 
-  and (max-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .brand-logo {
-        font-size: 1.4em;
-    }
-    nav, .page-footer {
-        width: 568px;
-    }
-    main {
-       width: 580px;
-       align-content: center;
-    }
-
-    .main-container, .content-container {
-       margin: 50px;
+    #appInfo {
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 10px;
     }
 }
 
 
-/* iPhone 6/7/8 */
-@media only screen 
-  and (min-width: 375px) 
-  and (max-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .brand-logo {
-        font-size: 1.5em;
-    }
-    nav, main, .page-footer {
-        width: 380px;
-    }
 
-    .main-container, .content-container {
-        margin: 40px 40px;
-    }
-
-    .about-img {
-        margin: -1.75em 0em 2em -0.5em;
-    }
-}
-
-@media only screen 
-  and (min-width: 375px) 
-  and (max-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    .brand-logo {
-        font-size: 1.5em;
-    }
-    nav, main, .page-footer {
-        width: 667px;
-    }
-
-    .main-container {
-        margin: 50px 50px;
-    }
-
-    .content-container {
-        margin: 50px 10px;
-    }
-}
-
-
-/* iPhone 6/7/8 Plus */
-@media only screen 
-  and (min-width: 414px) 
-  and (max-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    .brand-logo {
-        font-size: 1.5em;
-    }
-    nav, main, .page-footer {
-        width: 415px;
-    }
-
-    .content-container {
-        margin: 40px 45px;
-    }
-}
-
-@media only screen 
-  and (min-width: 414px) 
-  and (max-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    .brand-logo {
-        font-size: 1.5em;
-    }
-    nav, .page-footer, main {
-        width: 736px;
-    }
-    .main-container, .content-container {
-        margin: 50px;
-    }
-
-    .about-img {
-        margin: .25em 2em 1em .5em;
-    }
-
-}
-
-/* iPhone X  */
-@media only screen 
-  and (min-width: 375px) 
-  and (max-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    body {
-        width: 100%
-    }
-
-    .brand-logo {
-        font-size: 1.5em;
-    }
-
-    .nav-wrapper {
-        position: inherit;
-    }
-
-    .main-container {
-        margin: 60px 40px;
-    }
-}
-
-@media only screen 
-  and (min-width: 375px) 
-  and (max-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    .brand-logo {
-        font-size: 1.5em;
-    }
-    nav, .page-footer, main {
-        width: 915px;
-    }
-    .main-container {
-        margin: 50px 50px;
-    }
-
-    .content {
-        margin-right: 60px;
-    }
-
-    .content-container {
-        margin: 30px 5px;
-    }
-}
-
-/* iPad 1/2/Mini/Air */
-@media only screen 
-  and (min-width: 768px) 
-  and (max-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1)
-  and (orientation: portrait) {
-    .main-container {
-        width: 565px;
-        margin: 75px 100px;
-    }
-
-    .content-container {
-        margin: 30px 5px;
-    }
-}
-
-@media only screen 
-  and (min-width: 768px) 
-  and (max-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1)
-  and (orientation: landscape) {
-    .main-container {
-        width: 565px;
-        margin: 75px 220px;
-    }
-
-    .content-container {
-        margin: 30px 5px;
-    }
-}

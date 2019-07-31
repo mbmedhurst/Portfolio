@@ -108,7 +108,7 @@ const TopNav = _ => {
       >
         <Toolbar>
           <Typography variant="h6" noWrap className={classes.title}>
-            Persistent drawer
+            Marianna Medhurst
           </Typography>
           <IconButton
             color="inherit"
