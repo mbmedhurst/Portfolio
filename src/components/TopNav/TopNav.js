@@ -9,14 +9,17 @@ import List from '@material-ui/core/List'
 import Typography from '@material-ui/core/Typography'
 import Divider from '@material-ui/core/Divider'
 import IconButton from '@material-ui/core/IconButton'
+import Home from '@material-ui/icons/Home'
+import Work from '@material-ui/icons/Work'
+import Assignment from '@material-ui/icons/Assignment'
+import Mail from '@material-ui/icons/Mail'
 import MenuIcon from '@material-ui/icons/Menu'
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft'
 import ChevronRightIcon from '@material-ui/icons/ChevronRight'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemIcon from '@material-ui/core/ListItemIcon'
 import ListItemText from '@material-ui/core/ListItemText'
-import InboxIcon from '@material-ui/icons/MoveToInbox'
-import MailIcon from '@material-ui/icons/Mail'
+import { Link } from 'react-router-dom'
 
 const drawerWidth = 240
 
@@ -75,6 +78,10 @@ const useStyles = makeStyles(theme => ({
     }),
     marginRight: 0,
   },
+  link: {
+    textDecoration: 'none',
+    color: '#757575',
+  }
 }))
 
 const TopNav = _ => {
@@ -130,21 +137,30 @@ const TopNav = _ => {
         </div>
         <Divider />
         <List>
-          {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-              <ListItemText primary={text} />
+          <Link className={classes.link} to='/'>
+            <ListItem button key='home'>
+              <ListItemIcon><Home /></ListItemIcon>
+              <ListItemText primary='Home' />
             </ListItem>
-          ))}
-        </List>
-        <Divider />
-        <List>
-          {['All mail', 'Trash', 'Spam'].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-              <ListItemText primary={text} />
+          </Link>
+          <Link className={classes.link} to='/portfolio'>
+            <ListItem button key='portfolio'>
+              <ListItemIcon><Work /></ListItemIcon>
+              <ListItemText primary='Portfolio' />
             </ListItem>
-          ))}
+          </Link>
+          <Link className={classes.link} to='/cv'>
+            <ListItem button key='cv'>
+              <ListItemIcon><Assignment /></ListItemIcon>
+              <ListItemText primary='CV' />
+            </ListItem>
+          </Link>
+          <Link className={classes.link} to='/contact'>
+            <ListItem button key='contact'>
+              <ListItemIcon><Mail /></ListItemIcon>
+              <ListItemText primary='Contact Me' />
+            </ListItem>
+          </Link>
         </List>
       </Drawer>
     </div>

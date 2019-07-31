@@ -5,6 +5,7 @@ import './App.css'
 import TopNav from './components/TopNav'
 import Sidebar from './components/Sidebar'
 import Home from './pages/Home'
+import Portfolio from './pages/Portfolio'
 
 
 class App extends Component {
@@ -35,11 +36,10 @@ class App extends Component {
         <Router>
           <div>
             <TopNav />
-            <Route exact path='/' render={_ =>
-              <Home />} />
-            {/* <Route exact path='/Portfolio' render={_ => <Portfolio />} /> */}
-            {/* <Route exact path='/CV' render={_ => <CV />} /> */}
-            {/* <Route exact path='/Contact' render={_ => <Contact />} /> */}
+            <Route exact path='/' render={_ => <Home />} />
+            <Route exact path='/portfolio' render={_ => <Portfolio />} />
+            {/* <Route exact path='/cv' render={_ => <CV />} /> */}
+            {/* <Route exact path='/contact' render={_ => <Contact />} /> */}
           </div>
         </Router>
       )
@@ -48,12 +48,11 @@ class App extends Component {
         <Router>
           <div>
             <Sidebar />
-            <Route exact path='/' render={_ =>
-              <Home />} />
-            {/* <Route exact path='/Portfolio' render={_ => <Portfolio />} /> */}
-            {/* <Route exact path='/CV' render={_ => <CV />} /> */}
-            {/* <Route exact path='/Contact' render={_ => <Contact />} /> */}
-          </div>
+            <Route exact path='/' render={_ => <Home />} />
+            <Route exact path='/portfolio' render={_ => <Portfolio />} />
+            {/* <Route exact path='/cv' render={_ => <CV />} /> */}
+            {/* <Route exact path='/contact' render={_ => <Contact />} /> */}
+            </div>
         </Router>
       )
     }

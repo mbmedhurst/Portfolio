@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid'
 import Avatar from '@material-ui/core/Avatar'
 import MenuItem from '@material-ui/core/MenuItem'
 import MenuList from '@material-ui/core/MenuList'
+import { Link } from 'react-router-dom'
 
 const useStyles = makeStyles({
     bigAvatar: {
@@ -19,8 +20,13 @@ const useStyles = makeStyles({
         position: 'fixed',
         width: '25%',
         height: '100%',
-        backgroundColor: 'rgba(255, 83, 61,0.8)',
+        backgroundColor: 'rgba(255, 83, 61,0.9)',
         border: '1px solid grey',
+        zIndex: '1100'
+    },
+    link: {
+        textDecoration: 'none',
+        color: 'white',
     }
 })
 
@@ -35,15 +41,26 @@ const Sidebar = props => {
                 <Grid container justify='center' alignItems='center'>
                     <Avatar alt='Photo of Marianna' src='./sampleAvi.jpg' className={classes.bigAvatar} />
                 </Grid>
-                <Grid item xs={12} style={{ color: 'white', textAlign: 'center' }}>
-                    <h2>Marianna Medhurst</h2>
-                    <h3>Full-Stack Developer</h3>
+                <Grid item xs={12} style={{ color: 'white', textAlign: 'center', fontSize: '30px', marginTop: '20px' }}>
+                    Marianna Medhurst
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={12} style={{ color: 'white', textAlign: 'center', fontSize: '20px', marginTop: '10px'}}>
+                Front-End Developer
+                </Grid>
+                <Grid item xs={12} style={{ marginTop: '30px'}}>
                     <MenuList style={{ marginLeft: '15%' }}>
-                        <MenuItem>Portfolio</MenuItem>
-                        <MenuItem>CV</MenuItem>
-                        <MenuItem>Contact Me</MenuItem>
+                        <Link className={classes.link} to='/'>
+                            <MenuItem>Home</MenuItem>
+                        </Link>
+                        <Link className={classes.link} to='/portfolio'>
+                            <MenuItem>Portfolio</MenuItem>
+                        </Link>
+                        <Link className={classes.link} to='/cv'>
+                            <MenuItem>CV</MenuItem>
+                        </Link>
+                        <Link className={classes.link} to='/contact'>
+                            <MenuItem>Contact Me</MenuItem>
+                        </Link>
                     </MenuList>
                 </Grid>
             </Grid>
