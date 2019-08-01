@@ -1,0 +1,92 @@
+#contactCont {
+    margin-left: 20px;
+    margin-right: 325px;
+    border-bottom: 1px solid #ff0844;
+    border-left: 1px solid #ff0844;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#phoneLabel {
+    border-bottom: none;
+    font-size: 18px;
+}
+
+#emailLabel, #gitLabel, #linkedInLabel {
+    width: 50px;
+    padding-right: 10px;
+    border-bottom: none;
+    font-size: 18px;
+}
+
+#phoneIcon, #emailIcon, #gitIcon, #linkedInIcon {
+    padding-right: 15px;
+    width: 5px;
+    text-align: right;
+    border-bottom: none;
+}
+
+#phoneTxt, #emailTxt, #gitTxt, #linkedInTxt {
+    padding-left: 0px;
+    border-bottom: none;
+    font-size: 18px;
+    color: #ff0844
+}
+
+#gitHub {
+    border-bottom: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ff0844;
+}
+
+/* iPhone X  */
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    #contactCont {
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    #phoneLabel {
+        border-bottom: none;
+        font-size: 14px;
+    }
+    
+    #emailLabel, #gitLabel, #linkedInLabel {
+        width: 50px;
+        padding-right: 10px;
+        border-bottom: none;
+        font-size: 14px;
+    }
+    
+    #phoneIcon, #emailIcon, #gitIcon, #linkedInIcon {
+        padding-right: 15px;
+        width: 5px;
+        text-align: right;
+        border-bottom: none;
+    }
+    
+    #phoneTxt, #emailTxt, #gitTxt, #linkedInTxt {
+        padding-left: 0px;
+        border-bottom: none;
+        font-size: 14px;
+        color: #ff0844
+    }
+    
+    #gitHub {
+        border-bottom: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #ff0844;
+    }
+}

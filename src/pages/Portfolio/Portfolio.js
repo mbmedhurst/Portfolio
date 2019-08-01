@@ -32,7 +32,7 @@ const Portfolio = _ => {
                     <Paper id='appInfo' className={classes.root}>
                         <Grid container>
                             <Grid item sm={12} md={6} className='appDesc'>
-                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold'}}>
+                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>
                                     #Adulting
                                 </Typography>
                                 <hr></hr>
@@ -40,7 +40,7 @@ const Portfolio = _ => {
                                     An app that helps families manage household chores while teaching children that hard work pays off.
                                     <p>For this app I worked on a team with three other people. It was the final project for my Coding Bootcamp course.</p>
                                 </Typography>
-                                <Grid container sm={12}>
+                                <Grid container sm={12} className='listCont'>
                                     <Grid item sm={6}>
                                         <ul>
                                             <li className='listItem'>React</li>
@@ -58,15 +58,15 @@ const Portfolio = _ => {
                                     </Grid>
                                 </Grid>
                             </Grid>
-                            <Grid item sm={12} md={6} className='imgCont' style={{ margin: 'auto'}}>
-                                    <img className='appImg' alt='Adulting Screenshot' src='./images/adulting.jpg'></img>
-                                </Grid>
+                            <Grid item sm={12} md={6} className='imgCont' style={{ margin: 'auto' }}>
+                                <img className='appImg' alt='Adulting Screenshot' src='./images/adulting.jpg'></img>
+                            </Grid>
                         </Grid>
                     </Paper>
                     <Paper id='appInfo' className={classes.root}>
                         <Grid container>
                             <Grid item sm={12} md={6} className='appDesc'>
-                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold'}}>
+                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>
                                     Google Books Search
                                 </Typography>
                                 <hr></hr>
@@ -84,15 +84,15 @@ const Portfolio = _ => {
                                     </Grid>
                                 </Grid>
                             </Grid>
-                            <Grid item sm={12} md={6} className='imgCont' style={{ margin: 'auto'}}>
-                                    <img className='appImg' alt='Google Books Screenshot' src='./images/googlebooks.jpg'></img>
-                                </Grid>
+                            <Grid item sm={12} md={6} className='imgCont' style={{ margin: 'auto' }}>
+                                <img className='appImg' alt='Google Books Screenshot' src='./images/googlebooks.jpg'></img>
+                            </Grid>
                         </Grid>
                     </Paper>
                     <Paper id='appInfo' className={classes.root}>
                         <Grid container>
                             <Grid item sm={12} md={6} className='appDesc'>
-                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold'}}>
+                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>
                                     The Clicky Game
                                 </Typography>
                                 <hr></hr>
@@ -109,9 +109,9 @@ const Portfolio = _ => {
                                     </Grid>
                                 </Grid>
                             </Grid>
-                            <Grid item sm={12} md={6} className='imgCont' style={{ margin: 'auto'}}>
-                                    <img className='appImg' alt='Clickygame Screenshot' src='./images/clickygame.jpg'></img>
-                                </Grid>
+                            <Grid item sm={12} md={6} className='imgCont' style={{ margin: 'auto' }}>
+                                <img className='appImg' alt='Clickygame Screenshot' src='./images/clickygame.jpg'></img>
+                            </Grid>
                         </Grid>
                     </Paper>
                 </Grid>

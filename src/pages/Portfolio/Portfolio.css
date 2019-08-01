@@ -75,6 +75,10 @@ hr {
         margin-right: 20px;
         padding-top: 10px;
     }
+    .appImg {
+        margin-top: 10px;
+        margin-bottom: 10px; 
+    }
 }
 
 /* iPhone X  */
