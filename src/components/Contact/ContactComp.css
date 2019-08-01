@@ -25,7 +25,7 @@
 #phoneIcon, #emailIcon, #gitIcon, #linkedInIcon {
     padding-right: 15px;
     width: 5px;
-    text-align: right;
+    text-align: center;
     border-bottom: none;
 }
 
@@ -45,6 +45,21 @@ a {
     color: #ff0844;
 }
 
+/* iPhone 5/SE */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #phoneLabel, #emailLabel, #gitLabel, #linkedInLabel{
+        font-size: 20px;
+    }
+    
+    #phoneTxt, #emailTxt, #gitTxt, #linkedInTxt {
+        font-size: 20px;
+    }
+}
+
 /* iPhone X  */
 @media only screen 
   and (min-width: 375px) 
@@ -52,41 +67,24 @@ a {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
     #contactCont {
-        margin-left: 5px;
+        margin-left: 7px;
         margin-right: 10px;
     }
-    #phoneLabel {
-        border-bottom: none;
+    #phoneLabel, #emailLabel, #gitLabel, #linkedInLabel{
         font-size: 14px;
-    }
-    
-    #emailLabel, #gitLabel, #linkedInLabel {
-        width: 50px;
-        padding-right: 10px;
-        border-bottom: none;
-        font-size: 14px;
-    }
-    
-    #phoneIcon, #emailIcon, #gitIcon, #linkedInIcon {
-        padding-right: 15px;
-        width: 5px;
-        text-align: right;
-        border-bottom: none;
     }
     
     #phoneTxt, #emailTxt, #gitTxt, #linkedInTxt {
-        padding-left: 0px;
-        border-bottom: none;
         font-size: 14px;
-        color: #ff0844
     }
-    
-    #gitHub {
-        border-bottom: none;
-    }
-    
-    a {
-        text-decoration: none;
-        color: #ff0844;
+
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+        #contactCont {
+            margin-top: 10px;
+        }    
     }
 }

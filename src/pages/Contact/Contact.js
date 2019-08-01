@@ -9,7 +9,7 @@ const Contact = _ => {
         <>
             <Grid container fixed>
                 <Grid item id='sidebar' sm={0} md={3}></Grid>
-                <Grid item className='main' sm={12} md={9}>
+                <Grid item id='contactMain' sm={12} md={9}>
                     <div className='header'>Contact</div>
                     <div className='subHeader'></div>
                     <ContactPaper />

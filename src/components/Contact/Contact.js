@@ -62,11 +62,11 @@ const ContactPaper = _ => {
                                     LinkedIn:
                                 </TableCell>
                                 <TableCell id='linkedInIcon' className='contactIcon'>
-                                    <Mail />
+                                    <img src='./images/linkedin.png'></img>
                                 </TableCell>
                                 <TableCell id='linkedInTxt' className='contactText'>
-                                    <a href='mailto:mbmedhurst@gmail.com'>
-                                        mbmedhurst@gmail.com
+                                    <a href='www.linkedin.com/in/mariannamedhurst'>
+                                        mariannamedhurst
                                     </a>
                                 </TableCell>
                             </TableRow>
