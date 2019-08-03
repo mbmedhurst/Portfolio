@@ -6,7 +6,7 @@ import TopNav from './components/TopNav'
 import Sidebar from './components/Sidebar'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
-import CV from './pages/CV'
+import About from './pages/About'
 import Contact from './pages/Contact'
 
 
@@ -40,7 +40,7 @@ class App extends Component {
             <TopNav />
             <Route exact path='/' render={_ => <Home />} />
             <Route exact path='/portfolio' render={_ => <Portfolio />} />
-            <Route exact path='/cv' render={_ => <CV />} />
+            <Route exact path='/about' render={_ => <About />} />
             <Route exact path='/contact' render={_ => <Contact />} />
           </div>
         </Router>
@@ -52,7 +52,7 @@ class App extends Component {
             <Sidebar />
             <Route exact path='/' render={_ => <Home />} />
             <Route exact path='/portfolio' render={_ => <Portfolio />} />
-            <Route exact path='/cv' render={_ => <CV />} /> */}
+            <Route exact path='/about' render={_ => <About />} /> */}
             <Route exact path='/contact' render={_ => <Contact />} />
             </div>
         </Router>

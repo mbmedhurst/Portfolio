@@ -38,7 +38,7 @@ const Portfolio = _ => {
                                 <hr></hr>
                                 <Typography component="p" className='appDesc' style={{ marginTop: '10px' }}>
                                     An app that helps families manage household chores while teaching children that hard work pays off.
-                                    <p>For this app I worked on a team with three other people. It was the final project for my Coding Bootcamp course.</p>
+                                    <p>Responsible for all of the styling throughout the app, created the graph component on the dashboard,  coded and styled the component that dynamically adds avatars to the main menu.</p>
                                 </Typography>
                                 <Grid container sm={12} className='listCont'>
                                     <Grid item sm={6}>
@@ -78,8 +78,12 @@ const Portfolio = _ => {
                                         <ul>
                                             <li className='listItem'>React</li>
                                             <li className='listItem'>Google Books API</li>
-                                            <li className='listItem'>Material UI</li>
 
+                                        </ul>
+                                    </Grid>
+                                    <Grid item sm={6}>
+                                        <ul>
+                                            <li className='listItem'>Material UI</li>
                                         </ul>
                                     </Grid>
                                 </Grid>
@@ -104,13 +108,48 @@ const Portfolio = _ => {
                                         <ul>
                                             <li className='listItem'>React</li>
                                             <li className='listItem'>Material UI</li>
-                                            <li className='listItem'>Shuffle</li>
+                                            <li className='listItem'>Shuffle-Array (npm)</li>
+                                        </ul>
+                                    </Grid>
+                                    <Grid item sm={6}>
+                                        <ul>
+                                            <li className='listItem'>Subtle Patterns (background patterns)</li>
                                         </ul>
                                     </Grid>
                                 </Grid>
                             </Grid>
                             <Grid item sm={12} md={6} className='imgCont' style={{ margin: 'auto' }}>
                                 <img className='appImg' alt='Clickygame Screenshot' src='./images/clickygame.jpg'></img>
+                            </Grid>
+                        </Grid>
+                    </Paper>
+                    <Paper id='appInfo' className={classes.root}>
+                        <Grid container>
+                            <Grid item sm={12} md={6} className='appDesc'>
+                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>
+                                    Train Time
+                                </Typography>
+                                <hr></hr>
+                                <Typography component="p" className='appDesc' style={{ marginTop: '10px' }}>
+                                    Train schedule app - add a train to the schedule and the table will display what time the train will arrive and how many minutes away it is.
+                                </Typography>
+                                <Grid container sm={12}>
+                                    <Grid item sm={6}>
+                                        <ul>
+                                            <li className='listItem'>HTML</li>
+                                            <li className='listItem'>CSS</li>
+                                                                                    </ul>
+                                    </Grid>
+                                    <Grid item sm={6}>
+                                        <ul>
+                                            <li className='listItem'>Moment.js</li>
+                                            <li className='listItem'>Firebase</li>
+                                        </ul>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid item sm={12} md={6} className='imgCont' style={{ margin: 'auto' }}>
+                                <img className='appImg' alt='Traintime Screenshot' src='./images/traintime.png'></img>
                             </Grid>
                         </Grid>
                     </Paper>

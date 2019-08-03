@@ -34,18 +34,18 @@ const Sidebar = props => {
                     Marianna Medhurst
                 </Grid>
                 <Grid item xs={12} style={{ color: 'white', textAlign: 'center', fontSize: '20px', marginTop: '10px'}}>
-                Front-End Developer
+                Full-Stack Developer
                 </Grid>
                 <Grid item xs={12} style={{ marginTop: '30px'}}>
                     <MenuList style={{ marginLeft: '15%' }}>
                         <Link className='link' to='/'>
                             <MenuItem>Home</MenuItem>
                         </Link>
+                        <Link className='link' to='/about'>
+                            <MenuItem>About Me</MenuItem>
+                        </Link>
                         <Link className='link' to='/portfolio'>
                             <MenuItem>Portfolio</MenuItem>
-                        </Link>
-                        <Link className='link' to='/cv'>
-                            <MenuItem>CV</MenuItem>
                         </Link>
                         <Link className='link' to='/contact'>
                             <MenuItem>Contact</MenuItem>

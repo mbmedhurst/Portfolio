@@ -11,7 +11,7 @@ import Divider from '@material-ui/core/Divider'
 import IconButton from '@material-ui/core/IconButton'
 import Home from '@material-ui/icons/Home'
 import Work from '@material-ui/icons/Work'
-import Assignment from '@material-ui/icons/Assignment'
+import Person from '@material-ui/icons/Person'
 import Mail from '@material-ui/icons/Mail'
 import MenuIcon from '@material-ui/icons/Menu'
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft'
@@ -146,16 +146,16 @@ const TopNav = _ => {
               <ListItemText onClick={handleDrawerClose} primary='Home' />
             </ListItem>
           </Link>
+          <Link className={classes.link} to='/about'>
+            <ListItem button key='about'>
+              <ListItemIcon style={{color: '#ff0844'}}><Person /></ListItemIcon>
+              <ListItemText onClick={handleDrawerClose} primary='About Me' />
+            </ListItem>
+          </Link>
           <Link className={classes.link} to='/portfolio'>
             <ListItem button key='portfolio'>
               <ListItemIcon style={{color: '#ff0844'}}><Work /></ListItemIcon>
               <ListItemText onClick={handleDrawerClose} primary='Portfolio' />
-            </ListItem>
-          </Link>
-          <Link className={classes.link} to='/cv'>
-            <ListItem button key='cv'>
-              <ListItemIcon style={{color: '#ff0844'}}><Assignment /></ListItemIcon>
-              <ListItemText onClick={handleDrawerClose} primary='CV' />
             </ListItem>
           </Link>
           <Link className={classes.link} to='/contact'>
