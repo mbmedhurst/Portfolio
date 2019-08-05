@@ -19,7 +19,7 @@ const AboutMe = _ => {
                     </Grid>
                     <Grid item sm={12} >
                         <Typography id='paragraphBody'>
-                        I am a Southern California native, both a first-generation American and a Mayflower Descendant. I studied English in college, getting both my Bachelor’s and my Master’s from Loyola Marymount University.
+                        I am a Southern California native, born and raised a few blocks from the Pacific Ocean. I studied English in college, getting both my Bachelor’s and my Master’s from Loyola Marymount University.
                         <p>Frustrated and bored with my admin job, but not knowing what I wanted to do, I moved to San Diego to take yet another admin job with Elsevier, a large publisher of scholarly journals. I figured that at least in a large company there would be plenty of opportunities for advancement. I was right.</p>
                         </Typography>
                     </Grid>
@@ -38,7 +38,7 @@ const AboutMe = _ => {
                     <Grid item sm={12} >
                         <Typography id='paragraphBody'>
                             I returned to California a few years ago, this time with a husband and a furry family in tow. I started working as a freelance software tester, at first continuing my relationship with Achilles and then later taking on new clients.
-                            <p>Looking for a new challenge, in 2019 I completed an aptly-named coding bootcamp at UCI. My goal is to transition into a career as a full-time developer.</p>
+                            <p>Looking for a new challenge, in 2019 I completed a coding bootcamp at UCI. My goal is to transition into a career as a full-time developer.</p>
                             <p>If you’d like to learn more about my career history, please visit my <a style={{fontWeight: 'bold'}} target="_blank" href='https://www.linkedin.com/in/mariannamedhurst/'>LinkedIn</a> page.</p>
                         </Typography>
                     </Grid>
