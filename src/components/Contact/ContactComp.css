@@ -51,6 +51,10 @@ a {
   and (max-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    #contactCont {
+        margin-left: 12px;
+        margin-right: 30px;
+    }
     #phoneLabel, #emailLabel, #gitLabel, #linkedInLabel{
         font-size: 20px;
     }
