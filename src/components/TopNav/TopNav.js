@@ -30,6 +30,7 @@ const useStyles = makeStyles(theme => ({
   appBar: {
     backgroundColor: '#003882',
     borderBottom: '2px solid white',
+    height: 80,
     transition: theme.transitions.create(['margin', 'width'], {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
@@ -45,6 +46,7 @@ const useStyles = makeStyles(theme => ({
   },
   title: {
     flexGrow: 1,
+    marginTop: 10,
   },
   hide: {
     display: 'none',
@@ -111,8 +113,9 @@ const TopNav = _ => {
         })}
       >
         <Toolbar>
-          <Typography variant="h6" noWrap className={classes.title}>
+          <Typography variant="h6" className={classes.title}>
             Marianna Medhurst
+            <p style={{fontSize: '15px', marginTop: '0', marginBottom: '0'}}>Full Stack Developer</p>
           </Typography>
           <IconButton
             color="inherit"
