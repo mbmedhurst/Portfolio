@@ -28,7 +28,8 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
   },
   appBar: {
-    backgroundColor: '#ff0844',
+    backgroundColor: '#003882',
+    borderBottom: '2px solid white',
     transition: theme.transitions.create(['margin', 'width'], {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
@@ -79,11 +80,11 @@ const useStyles = makeStyles(theme => ({
     marginRight: 0,
   },
   icon: {
-    backgroundColor: '#ff0844',
+    // backgroundColor: '#003882',
   },
   link: {
     textDecoration: 'none',
-    color: '#ff0844',
+    color: '#003882',
   }
 }))
 
@@ -142,25 +143,25 @@ const TopNav = _ => {
         <List>
           <Link className={classes.link} to='/'>
             <ListItem button key='home'>
-              <ListItemIcon style={{color: '#ff0844'}}><Home /></ListItemIcon>
+              <ListItemIcon style={{color: '#003882'}}><Home /></ListItemIcon>
               <ListItemText onClick={handleDrawerClose} primary='Home' />
             </ListItem>
           </Link>
           <Link className={classes.link} to='/about'>
             <ListItem button key='about'>
-              <ListItemIcon style={{color: '#ff0844'}}><Person /></ListItemIcon>
+              <ListItemIcon style={{color: '#003882'}}><Person /></ListItemIcon>
               <ListItemText onClick={handleDrawerClose} primary='About Me' />
             </ListItem>
           </Link>
           <Link className={classes.link} to='/portfolio'>
             <ListItem button key='portfolio'>
-              <ListItemIcon style={{color: '#ff0844'}}><Work /></ListItemIcon>
+              <ListItemIcon style={{color: '#003882'}}><Work /></ListItemIcon>
               <ListItemText onClick={handleDrawerClose} primary='Portfolio' />
             </ListItem>
           </Link>
           <Link className={classes.link} to='/contact'>
             <ListItem button key='contact'>
-              <ListItemIcon style={{color: '#ff0844'}}><Mail /></ListItemIcon>
+              <ListItemIcon style={{color: '#003882'}}><Mail /></ListItemIcon>
               <ListItemText onClick={handleDrawerClose} primary='Contact' />
             </ListItem>
           </Link>

@@ -1,8 +1,8 @@
 #contactCont {
     margin-left: 20px;
     margin-right: 325px;
-    border-bottom: 1px solid #ff0844;
-    border-left: 1px solid #ff0844;
+    border-bottom: 1px solid #003882;
+    border-left: 1px solid #003882;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -33,7 +33,7 @@
     padding-left: 0px;
     border-bottom: none;
     font-size: 18px;
-    color: #ff0844
+    color: #003882
 }
 
 #gitHub {
@@ -42,7 +42,7 @@
 
 a {
     text-decoration: none;
-    color: #ff0844;
+    color: #003882;
 }
 
 /* iPhone 5/SE */

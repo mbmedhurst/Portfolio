@@ -65,7 +65,7 @@ const ContactPaper = _ => {
                                     <img src='./images/linkedin.png'></img>
                                 </TableCell>
                                 <TableCell id='linkedInTxt' className='contactText'>
-                                    <a href='www.linkedin.com/in/mariannamedhurst'>
+                                    <a target="_blank" href='https://www.linkedin.com/in/mariannamedhurst'>
                                         mariannamedhurst
                                     </a>
                                 </TableCell>
@@ -78,7 +78,7 @@ const ContactPaper = _ => {
                                     <img src='./images/git3.jpg' alt='git icon'></img>
                                 </TableCell>
                                 <TableCell id='gitTxt' className='contactText'>
-                                    <a href='https://github.com/mbmedhurst'>
+                                    <a target="_blank" href='https://github.com/mbmedhurst'>
                                         mbmedhurst
                                     </a>
                                 </TableCell>

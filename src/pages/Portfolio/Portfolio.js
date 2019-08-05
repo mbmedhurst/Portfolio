@@ -67,36 +67,6 @@ const Portfolio = _ => {
                         <Grid container>
                             <Grid item sm={12} md={6} className='appDesc'>
                                 <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>
-                                    Google Books Search
-                                </Typography>
-                                <hr></hr>
-                                <Typography component="p" className='appDesc' style={{ marginTop: '10px' }}>
-                                    Search, view and save books from Google Books
-                                </Typography>
-                                <Grid container sm={12}>
-                                    <Grid item sm={6}>
-                                        <ul>
-                                            <li className='listItem'>React</li>
-                                            <li className='listItem'>Google Books API</li>
-
-                                        </ul>
-                                    </Grid>
-                                    <Grid item sm={6}>
-                                        <ul>
-                                            <li className='listItem'>Material UI</li>
-                                        </ul>
-                                    </Grid>
-                                </Grid>
-                            </Grid>
-                            <Grid item sm={12} md={6} className='imgCont' style={{ margin: 'auto' }}>
-                                <img className='appImg' alt='Google Books Screenshot' src='./images/googlebooks.jpg'></img>
-                            </Grid>
-                        </Grid>
-                    </Paper>
-                    <Paper id='appInfo' className={classes.root}>
-                        <Grid container>
-                            <Grid item sm={12} md={6} className='appDesc'>
-                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>
                                     The Clicky Game
                                 </Typography>
                                 <hr></hr>
@@ -120,6 +90,36 @@ const Portfolio = _ => {
                             </Grid>
                             <Grid item sm={12} md={6} className='imgCont' style={{ margin: 'auto' }}>
                                 <img className='appImg' alt='Clickygame Screenshot' src='./images/clickygame.jpg'></img>
+                            </Grid>
+                        </Grid>
+                    </Paper>
+                    <Paper id='appInfo' className={classes.root}>
+                        <Grid container>
+                            <Grid item sm={12} md={6} className='appDesc'>
+                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>
+                                    Google Books Search
+                                </Typography>
+                                <hr></hr>
+                                <Typography component="p" className='appDesc' style={{ marginTop: '10px' }}>
+                                    Search, view, save and delete books
+                                </Typography>
+                                <Grid container sm={12}>
+                                    <Grid item sm={6}>
+                                        <ul>
+                                            <li className='listItem'>React</li>
+                                            <li className='listItem'>Google Books API</li>
+                                        </ul>
+                                    </Grid>
+                                    <Grid item sm={6}>
+                                        <ul>
+                                            <li>MongoDB</li>
+                                            <li className='listItem'>Material UI</li>
+                                        </ul>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid item sm={12} md={6} className='imgCont' style={{ margin: 'auto' }}>
+                                <img className='appImg' alt='Adulting Screenshot' src='./images/googlebooks.png'></img>
                             </Grid>
                         </Grid>
                     </Paper>
