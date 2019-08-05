@@ -28,7 +28,7 @@ const Sidebar = props => {
             <Grid item xs={12}
                 style={{ height: '100%', color: 'white' }}>
                 <Grid container justify='center' alignItems='center'>
-                    <Avatar alt='Photo of Marianna' src='./sampleAvi.jpg' className={classes.bigAvatar} />
+                    <Avatar alt='Photo of Marianna' src='./images/pp.png' className={classes.bigAvatar} />
                 </Grid>
                 <Grid item xs={12} style={{ color: 'white', textAlign: 'center', fontSize: '30px', marginTop: '20px' }}>
                     Marianna Medhurst
