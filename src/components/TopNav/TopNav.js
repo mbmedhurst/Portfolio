@@ -113,7 +113,7 @@ const TopNav = _ => {
         })}
       >
         <Toolbar>
-          <Typography variant="h6" className={classes.title}>
+          <Typography variant="h6" noWrap className={classes.title}>
             Marianna Medhurst
             <p style={{fontSize: '15px', marginTop: '0', marginBottom: '0'}}>Full Stack Developer</p>
           </Typography>
