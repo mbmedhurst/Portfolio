@@ -112,7 +112,7 @@ const Portfolio = _ => {
                                     </Grid>
                                     <Grid item sm={6}>
                                         <ul>
-                                            <li>MongoDB</li>
+                                            <li className='listItem'>MongoDB</li>
                                             <li className='listItem'>Material UI</li>
                                         </ul>
                                     </Grid>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import logo from './logo.svg'
 import './App.css'
 import TopNav from './components/TopNav'
 import Sidebar from './components/Sidebar'
@@ -60,4 +59,4 @@ class App extends Component {
     }
   }
 }
-export default App;
+export default App

@@ -2,13 +2,13 @@
     overflow-x: auto;
 }
 .header {
-    margin: 40px 30px 20px 20px;
+    margin: 40px 30px 20px 30px;
     color: #555555;
     font-size: 40px;
 }
 
 .subHeader {
-    margin: 10px 30px 40px 20px;
+    margin: 10px 30px 40px 30px;
     color: #555555;
 }
 
@@ -24,7 +24,7 @@
 }
 
 hr {
-    border: 1px solid #ff0844;
+    border: 1px solid #003882;
 }
 
 .appDesc {
