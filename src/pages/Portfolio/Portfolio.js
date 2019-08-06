@@ -33,7 +33,7 @@ const Portfolio = _ => {
                         <Grid container>
                             <Grid item sm={12} md={6} className='appDesc'>
                                 <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>
-                                    #Adulting
+                                    <a id='appLink' target="_blank" href='https://adultingapp.herokuapp.com/'>#Adulting</a>
                                 </Typography>
                                 <hr></hr>
                                 <Typography component="p" className='appDesc' style={{ marginTop: '10px' }}>
@@ -67,7 +67,7 @@ const Portfolio = _ => {
                         <Grid container>
                             <Grid item sm={12} md={6} className='appDesc'>
                                 <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>
-                                    The Clicky Game
+                                    <a id='appLink' target="_blank" href='https://clickygamembm.herokuapp.com/'>The Clicky Game</a>
                                 </Typography>
                                 <hr></hr>
                                 <Typography component="p" className='appDesc' style={{ marginTop: '10px' }}>
@@ -97,7 +97,7 @@ const Portfolio = _ => {
                         <Grid container>
                             <Grid item sm={12} md={6} className='appDesc'>
                                 <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>
-                                    Google Books Search
+                                    <a id='appLink' target="_blank" href='https://googlebooksmbm.herokuapp.com/'>Google Book Search</a>
                                 </Typography>
                                 <hr></hr>
                                 <Typography component="p" className='appDesc' style={{ marginTop: '10px' }}>
@@ -127,7 +127,7 @@ const Portfolio = _ => {
                         <Grid container>
                             <Grid item sm={12} md={6} className='appDesc'>
                                 <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>
-                                    Train Time
+                                    <a id='appLink' target="_blank" href='https://mbmedhurst.github.io/Train-Time/'>Train Time</a>
                                 </Typography>
                                 <hr></hr>
                                 <Typography component="p" className='appDesc' style={{ marginTop: '10px' }}>
@@ -136,8 +136,8 @@ const Portfolio = _ => {
                                 <Grid container sm={12}>
                                     <Grid item sm={6}>
                                         <ul>
-                                            <li className='listItem'>HTML</li>
-                                            <li className='listItem'>CSS</li>
+                                            <li className='listItem'>HTML5</li>
+                                            <li className='listItem'>CSS3</li>
                                                                                     </ul>
                                     </Grid>
                                     <Grid item sm={6}>
