@@ -163,12 +163,12 @@ const TopNav = _ => {
               <ListItemText onClick={handleDrawerClose} primary='Portfolio' />
             </ListItem>
           </Link>
-          <Link className={classes.link} to='/cv'>
+          {/* <Link className={classes.link} to='/cv'>
             <ListItem button key='resume'>
               <ListItemIcon style={{color: '#003882'}}><Assignment /></ListItemIcon>
               <ListItemText onClick={handleDrawerClose} primary='Résumé' />
             </ListItem>
-          </Link>
+          </Link> */}
           <Link className={classes.link} to='/contact'>
             <ListItem button key='contact'>
               <ListItemIcon style={{color: '#003882'}}><Mail /></ListItemIcon>

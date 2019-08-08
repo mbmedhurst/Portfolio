@@ -6,7 +6,7 @@ import Sidebar from './components/Sidebar'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
 import About from './pages/About'
-import CV from './pages/CV'
+// import CV from './pages/CV'
 import Contact from './pages/Contact'
 
 
@@ -43,7 +43,7 @@ class App extends Component {
             <Route exact path='/portfolio' render={_ => <Portfolio />} />
             <Route exact path='/about' render={_ => <About />} />
             <Route exact path='/contact' render={_ => <Contact />} />
-            <Route exact path='/cv' render={_ => <CV />} />
+            {/* <Route exact path='/cv' render={_ => <CV />} /> */}
           </div>
         </Router>
       )
@@ -56,7 +56,7 @@ class App extends Component {
             <Route exact path='/portfolio' render={_ => <Portfolio />} />
             <Route exact path='/about' render={_ => <About />} />
             <Route exact path='/contact' render={_ => <Contact />} />
-            <Route exact path='/cv' render={_ => <CV />} />
+            {/* <Route exact path='/cv' render={_ => <CV />} /> */}
             </div>
         </Router>
       )
