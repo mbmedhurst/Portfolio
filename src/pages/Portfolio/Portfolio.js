@@ -32,10 +32,9 @@ const Portfolio = _ => {
                     <Paper id='appInfo' className={classes.root}>
                         <Grid container>
                             <Grid item sm={12} md={6} className='appDesc'>
-                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>
-                                    <a id='appLink' target="_blank" href='https://adultingapp.herokuapp.com/'>#Adulting</a>
-                                </Typography>
+                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>#Adulting</Typography>
                                 <hr></hr>
+                                <a id='appLink' target="_blank" href='https://adultingapp.herokuapp.com/'>Deployed Site</a> | <a id='gitLink' target="_blank" href='https://github.com/mbmedhurst/Adulting'>GitHub Repo</a>
                                 <Typography component="p" className='appDesc' style={{ marginTop: '10px' }}>
                                     An app that helps families manage household chores while teaching children that hard work pays off.
                                     <p>Responsible for all of the styling throughout the app, created the graph component on the dashboard,  coded and styled the component that dynamically adds avatars to the main menu.</p>
@@ -66,10 +65,9 @@ const Portfolio = _ => {
                     <Paper id='appInfo' className={classes.root}>
                         <Grid container>
                             <Grid item sm={12} md={6} className='appDesc'>
-                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>
-                                    <a id='appLink' target="_blank" href='https://clickygamembm.herokuapp.com/'>The Clicky Game</a>
-                                </Typography>
+                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>The Clicky Game</Typography>
                                 <hr></hr>
+                                <a id='appLink' target="_blank" href='https://clickygamembm.herokuapp.com/'>Deployed Site</a> | <a id='gitLink' target="_blank" href='https://github.com/mbmedhurst/ClickyGame'>GitHub Repo</a>
                                 <Typography component="p" className='appDesc' style={{ marginTop: '10px' }}>
                                     A memory game - try not to click on the same image twice.
                                 </Typography>
@@ -78,11 +76,11 @@ const Portfolio = _ => {
                                         <ul>
                                             <li className='listItem'>React</li>
                                             <li className='listItem'>Material UI</li>
-                                            <li className='listItem'>Shuffle-Array (npm)</li>
                                         </ul>
                                     </Grid>
                                     <Grid item sm={6}>
                                         <ul>
+                                            <li className='listItem'>Shuffle-Array (npm)</li>
                                             <li className='listItem'>Subtle Patterns (background patterns)</li>
                                         </ul>
                                     </Grid>
@@ -96,10 +94,9 @@ const Portfolio = _ => {
                     <Paper id='appInfo' className={classes.root}>
                         <Grid container>
                             <Grid item sm={12} md={6} className='appDesc'>
-                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>
-                                    <a id='appLink' target="_blank" href='https://googlebooksmbm.herokuapp.com/'>Google Book Search</a>
-                                </Typography>
+                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>Google Books Search</Typography>
                                 <hr></hr>
+                                <a id='appLink' target="_blank" href='https://googlebooksmbm.herokuapp.com/'>Deployed Site</a> | <a id='gitLink' target="_blank" href='https://github.com/mbmedhurst/BooksSearch'>GitHub Repo</a>
                                 <Typography component="p" className='appDesc' style={{ marginTop: '10px' }}>
                                     Search, view, save and delete books
                                 </Typography>
@@ -112,8 +109,8 @@ const Portfolio = _ => {
                                     </Grid>
                                     <Grid item sm={6}>
                                         <ul>
-                                            <li className='listItem'>MongoDB</li>
                                             <li className='listItem'>Material UI</li>
+                                            <li className='listItem'>MongoDB</li>
                                         </ul>
                                     </Grid>
                                 </Grid>
@@ -126,10 +123,9 @@ const Portfolio = _ => {
                     <Paper id='appInfo' className={classes.root}>
                         <Grid container>
                             <Grid item sm={12} md={6} className='appDesc'>
-                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>
-                                    <a id='appLink' target="_blank" href='https://mbmedhurst.github.io/Train-Time/'>Train Time</a>
-                                </Typography>
+                                <Typography className='appName' variant="h5" component="h3" style={{ fontWeight: 'bold' }}>Train Time</Typography>
                                 <hr></hr>
+                                <a id='appLink' target="_blank" href='https://mbmedhurst.github.io/Train-Time/'>Deployed Site</a> | <a id='gitLink' target="_blank" href='https://github.com/mbmedhurst/Train-Time'>GitHub Repo</a>
                                 <Typography component="p" className='appDesc' style={{ marginTop: '10px' }}>
                                     Train schedule app - add a train to the schedule and the table will display what time the train will arrive and how many minutes away it is.
                                 </Typography>
@@ -138,7 +134,7 @@ const Portfolio = _ => {
                                         <ul>
                                             <li className='listItem'>HTML5</li>
                                             <li className='listItem'>CSS3</li>
-                                                                                    </ul>
+                                        </ul>
                                     </Grid>
                                     <Grid item sm={6}>
                                         <ul>

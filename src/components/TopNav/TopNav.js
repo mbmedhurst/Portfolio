@@ -11,6 +11,7 @@ import Divider from '@material-ui/core/Divider'
 import IconButton from '@material-ui/core/IconButton'
 import Home from '@material-ui/icons/Home'
 import Work from '@material-ui/icons/Work'
+import Assignment from '@material-ui/icons/Assignment'
 import Person from '@material-ui/icons/Person'
 import Mail from '@material-ui/icons/Mail'
 import MenuIcon from '@material-ui/icons/Menu'
@@ -160,6 +161,12 @@ const TopNav = _ => {
             <ListItem button key='portfolio'>
               <ListItemIcon style={{color: '#003882'}}><Work /></ListItemIcon>
               <ListItemText onClick={handleDrawerClose} primary='Portfolio' />
+            </ListItem>
+          </Link>
+          <Link className={classes.link} to='/cv'>
+            <ListItem button key='resume'>
+              <ListItemIcon style={{color: '#003882'}}><Assignment /></ListItemIcon>
+              <ListItemText onClick={handleDrawerClose} primary='Résumé' />
             </ListItem>
           </Link>
           <Link className={classes.link} to='/contact'>

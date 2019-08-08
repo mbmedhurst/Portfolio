@@ -47,6 +47,9 @@ const Sidebar = props => {
                         <Link className='link' to='/portfolio'>
                             <MenuItem>Portfolio</MenuItem>
                         </Link>
+                        <Link className='link' to='/cv'>
+                            <MenuItem>Résumé</MenuItem>
+                        </Link>
                         <Link className='link' to='/contact'>
                             <MenuItem>Contact</MenuItem>
                         </Link>

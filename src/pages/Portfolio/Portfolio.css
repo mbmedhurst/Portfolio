@@ -7,11 +7,16 @@
     font-size: 40px;
 }
 
-#appLink {
-    color: #555555;
+#appLink, #gitLink {
+    margin-top: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #003882;
+    font-weight: bold;
+    font-style: italic;
 }
 
-#appLink:hover {
+#appLink:hover, #gitLink:hover {
     color: #ffba00;
 }
 
@@ -29,10 +34,6 @@
 .appName {
     font-size: 40px;
     font-weight: bold;
-}
-
-hr {
-    border: 1px solid #003882;
 }
 
 .appDesc {

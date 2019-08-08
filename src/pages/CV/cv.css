@@ -1,0 +1,54 @@
+/* #cvOverlay {
+    background-color: rgb(0, 56, 130, 0.1);
+    background-size: cover;
+    position: fixed;
+    width:100%;
+    height:100%;
+    /* top:0px;
+    left:339px; */
+/* } */
+
+#cvPaper {
+    background-color: white;
+    color: #555555;
+    margin: 50px;
+    overflow-x: scroll;
+    z-index: 900;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+#nameHead {
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+/* iPhone 5/SE */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      #cvOverlay {
+          left: 0px;
+      }
+      #cvPaper {
+          margin: 130px 20px 50px 20px;
+          
+      }
+  }
+
+  /* iPad 1/2/Mini/Air */
+@media only screen 
+and (min-width: 768px) 
+and (max-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1)
+and (orientation: portrait) {
+    #cvOverlay {
+        left: 255px;
+    }
+}
