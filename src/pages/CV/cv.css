@@ -1,31 +1,101 @@
-/* #cvOverlay {
-    background-color: rgb(0, 56, 130, 0.1);
-    background-size: cover;
-    position: fixed;
-    width:100%;
-    height:100%;
-    /* top:0px;
-    left:339px; */
-/* } */
-
-#cvPaper {
-    background-color: white;
-    color: #555555;
-    margin: 50px;
-    overflow-x: scroll;
-    z-index: 900;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
+#resCont {
+    overflow-y: scroll;
+    margin-bottom: 50px;
 }
 
-#nameHead {
-    font-size: 30px;
-    margin: 10px;
+.header {
+    margin-bottom: 30px;
 }
 
+#download {
+    margin: 0px 30px 20px 30px;
+}
+
+#downloadLink {
+    text-decoration: none;
+    color: #003882;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#downloadLink:hover {
+    color: #ffba00;
+    text-decoration: underline;
+}
+
+#summaryHead, #techHead, #projectsHead, #expHead, #edHead {
+    margin: 15px 100px 0px 30px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 5px 0 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#summary, #tech, #adultingDesc, #googleDesc, #clickyDesc, #jobDesc {
+    margin: 10px 120px 20px 40px;
+    font-size: 15px; 
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.headline {
+    margin-top: 0px;
+    line-height: .5;
+    margin-left: 5px;
+}
+
+#projects {
+    margin: 10px 110px 10px 40px;
+    font-size: 16px; 
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+#jobHead {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 16px; 
+    text-align: justify;
+    line-height: 1.5; 
+}
+
+.jobs {
+    margin: 10px 40px;
+    font-size: 16px; 
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+#adultingRole {
+    margin: 10px 120px 10px 40px;
+    font-size: 15px; 
+    text-align: justify;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.projectLink:hover {
+    color: #ffba00;
+    text-decoration: underline; 
+}
+
+.dates {
+    margin-top: 5px;
+    font-weight: bold;
+    line-height: .5;
+}
+
+.bullets {
+    margin-left: 5px;
+    margin-right: 45px;
+}
+
+#edDetails {
+    margin-left: 40px;
+}
 
 /* iPhone 5/SE */
 @media only screen 
@@ -33,13 +103,6 @@
   and (max-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-      #cvOverlay {
-          left: 0px;
-      }
-      #cvPaper {
-          margin: 130px 20px 50px 20px;
-          
-      }
   }
 
   /* iPad 1/2/Mini/Air */
@@ -48,7 +111,4 @@ and (min-width: 768px)
 and (max-width: 1024px) 
 and (-webkit-min-device-pixel-ratio: 1)
 and (orientation: portrait) {
-    #cvOverlay {
-        left: 255px;
-    }
 }
