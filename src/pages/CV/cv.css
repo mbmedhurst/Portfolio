@@ -4,7 +4,7 @@
 }
 
 .header {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 #download {
@@ -103,6 +103,24 @@
   and (max-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+      #resCont {
+          margin-left: 10px;
+          margin-right: 10px;
+      }
+      .header, #download {
+          margin-left: 10px;
+      }
+      #summaryHead, #summary, #techHead, #tech, #projectsHead, #projects, #expHead, #jobHead, #edHead  {
+          margin-right: 10%;
+          margin-left: 10px;
+      }
+      .headline {
+          line-height: 1.5;
+      }
+      #adultingDesc, #googleDesc, #clickyDesc, #jobDesc, #edDetails {
+          margin-left: 10px;
+          margin-right: 10%;
+      }
   }
 
   /* iPad 1/2/Mini/Air */
